@@ -1,21 +1,12 @@
-# Expensetracker
-A simple and intuitive Expense Tracker application to help users monitor their daily, weekly, and monthly spending. This project allows users to add, view, and categorize expenses, and visualize spending habits over time using interactive charts.
-Features:
+# React + Vite
 
-Add, edit, and delete expenses
-Categorize spending (e.g., Food, Transport, Bills, etc.)
-View expense summaries by category and date range
-Visualizations using charts (bar, pie, or line charts)
-Responsive user interface for desktop and mobile
-Persistent data storage (e.g., using local storage or a database)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Tech Stack:
-Frontend: HTML, CSS, JavaScript (or React if applicable)
-Backend: Node.js / Express (if applicable)
-Database: MongoDB / Firebase / LocalStorage
-Charting: Chart.js / Recharts / D3.js
+Currently, two official plugins are available:
 
-Use Cases:
-Personal finance tracking
-Budget planning
-Spending analysis for better savings
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
